@@ -1,0 +1,18 @@
+<!-- 简单上传表单示例 -->
+<form action="/upload" method="post" enctype="multipart/form-data">
+  <div class="form-group">
+    <label for="file">选择文件：</label>
+    <input type="file" id="file" name="file" class="form-control-file">
+  </div>
+  <button type="submit" class="btn btn-primary">上传</button>
+</form>
+
+<!-- 下载列表示例 -->
+<ul class="download-list">
+  <li>
+    <a href="/download/file1.pdf" class="btn btn-download">
+      <i class="fas fa-file-pdf"></i> 用户手册.pdf
+    </a>
+    <span class="file-size">2.4 MB</span>
+  </li>
+</ul>
